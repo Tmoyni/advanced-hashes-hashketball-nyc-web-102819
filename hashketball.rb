@@ -200,12 +200,7 @@ def big_shoe_rebounds
       shoe_size <= player_shoe[:shoe]
     end
   end     
-      
-  if shoe_size == players[:shoe]
-    return players[:rebounds]
-        end 
-    end
-  end 
+  player_shoe[:rebounds]
 end 
 
 =begin 
