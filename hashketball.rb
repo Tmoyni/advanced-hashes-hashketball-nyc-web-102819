@@ -195,8 +195,8 @@ def big_shoe_rebounds
   end.flatten
 
   shoe_size = 0
-  player = players.find do |player|
-    player[:shoe] > shoe_size
+  player_shoe = players.find do |player_shoe|
+    if player[:shoe] > shoe_size
   end 
   player[:shoe]
 end 
