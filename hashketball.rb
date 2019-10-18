@@ -198,9 +198,11 @@ def big_shoe_rebounds
   player_shoe = players.each do |player_shoe|
     if players[:shoe] > shoe_size
       shoe_size <= players[:shoe]
+        if shoe_size == [:shoe]
+          puts players[:rebounds]
+        end 
     end
   end 
-  players[:rebounds]
 end 
 
 =begin 
