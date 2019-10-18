@@ -193,7 +193,6 @@ end
 
 def big_shoe_rebounds
   shoe_size = 0
-  def num_points_scored(player_name)
   players = game_hash.map do |team, team_stats|
     team_stats[:players]
   end.flatten
