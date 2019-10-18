@@ -196,6 +196,7 @@ def big_shoe_rebounds
   player_shoe_size = game_hash.map do |team, team_stats|
     team_stats[:shoe]
   end.flatten
+  binding.pry
   
   player = players.find do |player|
     player[:player_name] == player_name
