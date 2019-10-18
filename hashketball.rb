@@ -191,6 +191,7 @@ end
 
 def big_shoe_rebounds
   shoe_size = 0
+  rebounds = 0
   
    players = game_hash.map do |team, team_stats|
       team_stats[:players]
