@@ -199,7 +199,7 @@ def big_shoe_rebounds
     if players[:shoe] > shoe_size
       shoe_size <= players[:shoe]
         if shoe_size == [:shoe]
-          puts players[:rebounds]
+          return players[:rebounds]
         end 
     end
   end 
