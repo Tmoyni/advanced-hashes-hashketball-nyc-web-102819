@@ -200,7 +200,7 @@ def big_shoe_rebounds
       shoe_size = player_shoe[:shoe]
     end
   end     
-  player_shoe[:rebounds]
+  puts player_shoe[:rebounds]
 end 
 
 =begin 
