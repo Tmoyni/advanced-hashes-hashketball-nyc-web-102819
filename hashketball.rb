@@ -193,11 +193,10 @@ def big_shoe_rebounds
   players = game_hash.map do |team, team_stats|
     team_stats[:players]
   end.flatten
-    binding.pry
 
   shoe_size = 0
-  shoe_sizes = players.find do |shoes|
-    if shoes[:shoe] > 
+  player = players.find do |player|
+    player[:shoe] > shoe_size
   end 
   player[:shoe]
 end 
