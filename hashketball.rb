@@ -193,9 +193,15 @@ end
 
 def big_shoe_rebounds
   shoe_size = 0
-  game_hash.each do |place, team|
-    binding.pry
-  end    
+  player_shoe_size = game_hash.map do |team, team_stats|
+    team_stats[:shoe]
+  end.flatten
+  
+  player = players.find do |player|
+    player[:player_name] == player_name
+  end 
+  player[:points]
+end   
 end 
 
 =begin 
