@@ -197,10 +197,6 @@ def big_shoe_rebounds
   end.flatten
   binding.pry
   
-  player = players.find do |player|
-    player[:player_name] == player_name
-  end 
-  player[:points]
 end 
 
 =begin 
@@ -217,6 +213,13 @@ def big_shoe_rebounds
     end
   end    
 end 
+
+
+player = players.find do |player|
+    player[:player_name] == player_name
+  end 
+  player[:points]
+  
 =end
   
 
