@@ -197,11 +197,12 @@ def big_shoe_rebounds
   shoe_size = 0
   player_shoe = players.each do |player_shoe|
     if players[:shoe] > shoe_size
-    binding.pry
-    end
       shoe_size <= players[:shoe]
-        if shoe_size == players[:shoe]
-          return players[:rebounds]
+    end
+  end     
+      
+  if shoe_size == players[:shoe]
+    return players[:rebounds]
         end 
     end
   end 
