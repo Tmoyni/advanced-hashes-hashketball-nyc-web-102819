@@ -196,10 +196,10 @@ def big_shoe_rebounds
       team_stats[:players]
    end.flatten
 
-    player_shoe = players.each do |player_shoe|
-      if player_shoe[:shoe] > shoe_size
-       shoe_size = player_shoe[:shoe]
-       rebounds = player_shoe[:rebounds]
+    players = players.each do |players|
+      if players[:shoe] > shoe_size
+       shoe_size = players[:shoe]
+       rebounds = players[:rebounds]
       end
     end     
  rebounds
