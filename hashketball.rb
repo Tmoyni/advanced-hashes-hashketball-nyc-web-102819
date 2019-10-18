@@ -195,8 +195,9 @@ def big_shoe_rebounds
   end.flatten
     binding.pry
 
+  shoe_size = 0
   shoe_sizes = players.find do |shoes|
-    if shoes[:shoe] > 0
+    if shoes[:shoe] > 
   end 
   player[:shoe]
 end 
