@@ -192,8 +192,9 @@ end
 def big_shoe_rebounds
   players_shoe = game_hash.map do |team, team_stats|
     team_stats[:shoe]
+      binding.pry
+
   end.flatten
-  binding.pry
   
 end 
 
